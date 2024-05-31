@@ -7,6 +7,7 @@ This project is a basic REST API which contains a CRUD for users
 * [![Mongo][Mongo]][Mongo-url]
 * [![Express][Express]][Express-url]
 * [![Node][Node]][Node-url]
+* [![GraphQl][GraphQl]][GraphQl-url]
 * [![Eslint][Eslint]][Eslint-url]
 * [![Prettier][Prettier]][Prettier-url]
 
@@ -53,3 +54,5 @@ Have installed:
 [Typescript-url]: https://www.typescriptlang.org/
 [Pnpm]:https://img.shields.io/badge/PNPM-20232A?style=for-the-badge&logo=pnpm&logoColor=#F69220
 [Pnpm-url]: https://pnpm.io/
+[GraphQl]: https://img.shields.io/badge/GraphQL-E434AA?style=for-the-badge&logo=graphql&logoColor=white
+[GraphQl-url]: https://graphql.org/

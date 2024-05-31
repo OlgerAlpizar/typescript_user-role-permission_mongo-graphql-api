@@ -20,7 +20,22 @@ const userSchema = new mongoose.Schema({
     avatarUrl: String
 });
 
+const roleSchema = new mongoose.Schema({
+  name: String,
+  description: String,
+  domain: String,
+  permissionIds: [String]
+});
+
+const permissionSchema = new mongoose.Schema({
+  name: String,
+  description: String,
+  applicationName: String
+});
+
 const User = mongoose.model('User', userSchema);
+const Role = mongoose.model('Role', userSchema);
+const Permission = mongoose.model('Permission', userSchema);
 
 
 const createUsers = async () => {
@@ -51,7 +66,61 @@ const createUsers = async () => {
   })
 };
 
+const createRoles = async () => {
+  // Sample records to insert
+  const records = [
+    {name: 'Administrator', description: 'Super access',   domain: 'Management'},
+    {name: 'ReadOnly',      description: 'Minimal access', domain: 'Management'},
+    {name: 'Administrator', description: 'Super access',   domain: 'Commerce'},
+    {name: 'ReadOnly',      description: 'Minimal access', domain: 'Commerce'}
+  ];
+
+  records.forEach(async x => {
+    const role = new Role({
+      name: x.name,
+      description: x.description,
+      domain: x.domain,
+      permissionIds: []
+    });
+  
+    try {
+        const savedRole= await role.save()
+        console.log('Role saved:', savedRole)
+    } catch (err) {
+        console.error('Error saving role:', err)
+    }
+  })
+}
+
+
+const createPermissions = async () => {
+  // Sample records to insert
+  const records = [
+    {name: 'Administrator', description: 'Super access',   applicationName: 'AppTest1'},
+    {name: 'ReadOnly',      description: 'Minimal access', applicationName: 'AppTest1'},
+    {name: 'Administrator', description: 'Super access',   applicationName: 'AppTest2'},
+    {name: 'ReadOnly',      description: 'Minimal access', applicationName: 'AppTest2'}
+  ];
+
+  records.forEach(async x => {
+    const permission = new Permission({
+      name: x.name,
+      description: x.description,
+      applicationName: x.applicationName
+    });
+  
+    try {
+        const savedRole= await permission.save()
+        console.log('Permission saved:', savedRole)
+    } catch (err) {
+        console.error('Error saving permission:', err)
+    }
+  })
+}
+
 // Execute CRUD functions
 (async () => {
-  await createUsers();
-})();
+  await createUsers()
+  await createRoles()
+  await createPermissions()
+})()
