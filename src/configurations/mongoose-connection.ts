@@ -4,8 +4,10 @@ import { Logger } from './logger-middleware'
 export const mongooseConnectDB = async () => {
     mongoose.set('strictQuery', true)
 
+    const connectionString = process.env.MONGO_DB_CONNECTION ?? ''
+
     await mongoose
-        .connect(process.env.MONGO_DB_CONNECTION!)
+        .connect(connectionString)
         .then(() => {
             Logger.info('Mongoose connected!')
         })

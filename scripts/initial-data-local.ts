@@ -34,8 +34,8 @@ const permissionSchema = new mongoose.Schema({
 });
 
 const User = mongoose.model('User', userSchema);
-const Role = mongoose.model('Role', userSchema);
-const Permission = mongoose.model('Permission', userSchema);
+const Role = mongoose.model('Role', roleSchema);
+const Permission = mongoose.model('Permission', permissionSchema);
 
 
 const createUsers = async () => {
@@ -110,8 +110,8 @@ const createPermissions = async () => {
     });
   
     try {
-        const savedRole= await permission.save()
-        console.log('Permission saved:', savedRole)
+        const savedPermission= await permission.save()
+        console.log('Permission saved:', savedPermission)
     } catch (err) {
         console.error('Error saving permission:', err)
     }

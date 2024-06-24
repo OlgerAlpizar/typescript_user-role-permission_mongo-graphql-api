@@ -38,7 +38,7 @@ Have installed:
 
 * Run local initial data
     - Make sure you have installed mongoose globally (npm i -g mongoose)
-    - Run the script on <root>/scripts/initial-data-local.ts
+    - Run the initial script: node scripts/initial-data-local.ts
 
 [Mongo]: https://img.shields.io/badge/Mongo-20232A?style=for-the-badge&logo=mongodb&logoColor=#47A248
 [Mongo-url]:https://www.mongodb.com/

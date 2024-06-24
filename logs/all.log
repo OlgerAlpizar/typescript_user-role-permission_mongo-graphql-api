@@ -491,3 +491,39 @@
 2024-05-30 19:53:42 [32minfo[39m: [32mServer running on port 4001[39m
 2024-05-30 20:53:35 [32minfo[39m: [32mMongoose connected![39m
 2024-05-30 20:53:35 [32minfo[39m: [32mServer running on port 4001[39m
+2024-06-05 20:08:14 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:08:14 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:08:23 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:08:23 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:09:36 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:09:36 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:10:18 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
+2024-06-05 20:10:18 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:10:35 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
+2024-06-05 20:10:35 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:13:38 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
+2024-06-05 20:13:38 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:13:59 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:13:59 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:14:45 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:14:45 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:15:27 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:15:32 [32minfo[39m: [32mExpress with Apollo server running on port 3000[39m
+2024-06-05 20:16:21 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:16:50 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:16:58 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:17:02 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:19:03 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:19:03 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:20:24 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:20:24 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:23:11 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:23:11 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:29:00 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:29:00 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:35:49 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:35:49 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:37:54 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:37:54 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m
+2024-06-05 20:38:09 [32minfo[39m: [32mMongoose connected![39m
+2024-06-05 20:38:09 [32minfo[39m: [32mExpress with Apollo server running on port 4001[39m

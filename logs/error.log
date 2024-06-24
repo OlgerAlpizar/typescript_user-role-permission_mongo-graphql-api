@@ -64,3 +64,9 @@
 2024-05-30 16:51:20 [31merror[39m: [31mExpected double-quoted property name in JSON at position 66 - undefined. code: undefined[39m
 2024-05-30 16:51:25 [31merror[39m: [31mExpected double-quoted property name in JSON at position 66 - undefined. code: undefined[39m
 2024-05-30 19:46:39 [31merror[39m: [31mCannot read properties of undefined (reading 'length') - . code: 400[39m
+2024-06-05 20:08:14 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:08:23 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:09:36 [31merror[39m: [31mError connecting to mongoose The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+2024-06-05 20:10:18 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
+2024-06-05 20:10:35 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
+2024-06-05 20:13:38 [31merror[39m: [31mError connecting to mongoose Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m
